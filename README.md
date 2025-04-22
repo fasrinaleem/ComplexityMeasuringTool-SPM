@@ -13,3 +13,66 @@ https://mvnrepository.com/artifact/commons-io/commons-io/2.4
 
 
 ![Main UI](https://user-images.githubusercontent.com/38991771/66256530-489ab380-e7ac-11e9-8bc6-0d8db35dc158.png)
+
+
+# 🧠 Complexity Measuring Tool – SPM Project
+
+A web application developed using **Java**, **Servlets**, **JSP**, and **Materialize CSS** to evaluate software code complexity based on four major factors:
+
+1. **Size (CS)**  
+2. **Type and Nesting of Control Structures (CTC & CNC)**  
+3. **Inheritance (CI)**  
+4. **Recursion**
+
+---
+
+## 📌 Features
+
+- 📥 Upload a Java source file for complexity analysis
+- 📊 Calculates and displays complexity scores for each line of code
+- 📂 Follows a modular Java package structure:  
+  - `measuring_complexity_size/` for size-related calculations  
+  - `inheritance/` for inheritance complexity  
+  - `Fasrin_CTCandCNC/` for control structure and nesting metrics
+- 📄 Displays detailed output via web interface styled with **Materialize CSS**
+- 🧩 Supports GlassFish deployment (Tested in NetBeans)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tools & Technologies                  |
+|--------------|----------------------------------------|
+| Backend      | Java, Servlets, JSP                   |
+| Frontend     | Materialize CSS, HTML5, JavaScript    |
+| File Upload  | Apache Commons FileUpload, Commons IO |
+| Deployment   | GlassFish Server, NetBeans IDE        |
+
+---
+
+## 🚀 How to Run
+
+1. Open the project in **NetBeans IDE**
+2. Ensure **GlassFish server** is configured and running
+3. Deploy the web app via NetBeans and access it via browser
+4. Upload a `.java` file to view complexity metrics
+
+---
+
+## 📂 Repository Link
+
+- 🔗 [GitHub Repository](https://github.com/fasrinaleem/ComplexityMeasuringTool-SPM)
+
+---
+
+## 📄 License
+
+This project is open-source and distributed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+Special thanks to the SPM course faculty and contributors to the **Apache Commons** libraries:
+- [commons-fileupload](https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload/1.3.1)
+- [commons-io](https://mvnrepository.com/artifact/commons-io/commons-io/2.4)
